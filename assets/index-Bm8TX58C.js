@@ -67,7 +67,6 @@
                             type="button"
                             class="todo-btn todo-btn--danger"
                             data-action="delete"
-                            ${e.annulled?`disabled`:``}
                           >
                             Eliminar
                           </button>
