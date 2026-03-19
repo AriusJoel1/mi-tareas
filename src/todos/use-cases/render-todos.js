@@ -83,7 +83,6 @@ export const renderTodos = (element, { todos, loading }, { onAdd, onToggle, onEd
                             type="button"
                             class="todo-btn todo-btn--danger"
                             data-action="delete"
-                            ${todo.annulled ? 'disabled' : ''}
                           >
                             Eliminar
                           </button>
